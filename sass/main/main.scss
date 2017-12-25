@@ -19,6 +19,21 @@
     height: 100%;
   }
 }
+.main-portfolio{
+          flex-grow: 10;
+      flex-basis: 250px;
+      flex-shrink:4;
+  padding-top: 90px;
+
+  &--flexbox{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
  /* HD Monitor (стационарный компьютер) */
 }
@@ -29,7 +44,7 @@
 
 @media screen and (max-width: 768px) {
  /* Tablet (планшет) */
- .sidebar{
+ /*.sidebar{
    padding: 13px 0px;
    margin: 0 0px 0 0;
     box-sizing: content-box;
@@ -44,12 +59,12 @@
 
    &--flexbox{
      display: flex;
-     align-items: stretch;
-     justify-content: space-around;
+     align-items:
+     justify-content: flex-start;
      flex-wrap: wrap;
      height: 100%;
    }
- }
+ }*/
 }
 
 @media screen and (max-width: 520px) {
@@ -58,12 +73,26 @@
    //background-color: #ccc;
    flex-basis: 98%;
     padding: 0 1%;
-    margin: 0;
-    height: 27px;
+    margin: 1px 0 10px 0;
+    height: 22px;
     background-color: inherit;
- }
- .main{
-//margin-left: 10px;
-    // width: 100vw;
- }
+}
+    .main{
+          max-height: 1001px;
+
+      &--flexbox{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        //height: 100%;
+      }
+    }
+    .main-portfolio{
+    //  height: 100%;
+    }
+
+
+
 }

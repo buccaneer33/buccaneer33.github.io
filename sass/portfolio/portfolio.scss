@@ -102,7 +102,7 @@
 
 @media screen and (max-width: 768px) {
  /* Tablet (планшет) */
- .portfolio{
+ /*.portfolio{
     flex-basis: 740px;
    padding: 0 0 0 0px;
    margin-left: -10px;
@@ -198,7 +198,7 @@
        }
      }
 
- }
+ }*/
 }
 
 @media screen and (max-width: 520px) {
@@ -211,7 +211,7 @@
      font:35px $font-family;
      margin-bottom: 5px;
      text-align: center;
-     margin: 30px 0 4px -1px;
+     margin: 23px 5px 4px 0px;
      font-weight: 500;
      color: #414141;
    }
@@ -230,11 +230,11 @@
          //background-color: #ddd;
      }
      &__item{
-       flex-basis: 310px;
+       flex-basis: 300px;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         background-color: #fff;
-        margin: 17px 2px 6px 6px;
+            margin: 19px 4px 3px 2px;
         border-radius: 12px;
         padding: 0 0 2px 0;
      }

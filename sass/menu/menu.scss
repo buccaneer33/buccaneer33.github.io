@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 768px) {
  /* Tablet (планшет) */
-
+/*
  .menu{
    @include flexbox(flex, row, center, flex-start, wrap);
      color: #414141;
@@ -110,7 +110,8 @@
      list-style-type:none;
      text-decoration: none;
      margin:0;
-     padding: 0;
+     padding: 0 10px;
+     width: 300px;
 
 
 
@@ -178,7 +179,7 @@
 
 
        }
-     }
+     }*/
 }
 
 @media screen and (max-width: 520px) {
@@ -203,7 +204,7 @@
           vertical-align: middle;
           //color: #414141;
           cursor: pointer;
-          margin-right: 6%;
+          margin-right: 17px;
           padding-right: 0px;
 
 

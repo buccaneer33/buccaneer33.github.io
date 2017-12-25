@@ -157,6 +157,11 @@
   visibility: visible;
   transition: 0.3s;
 }
+.contacts__field-item:hover > a, .contacts__field-item:hover> a::before{
+  color: #e85f61;
+  transition: 0.3s;
+}
+
 
 @media screen and (max-width: 1200px) {
  /* HD Monitor (стационарный компьютер) */
@@ -168,7 +173,7 @@
 
 @media screen and (max-width: 768px) {
  /* Tablet (планшет) */
-
+/*
  .contacts{
    position: relative;
    float: right;
@@ -303,7 +308,7 @@
 
         }
     }
- }
+ }*/
 }
 
 @media screen and (max-width: 520px) {

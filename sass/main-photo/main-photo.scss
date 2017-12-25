@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 768px) {
  /* Tablet (планшет) */
- .about_photo{
+ /*.about_photo{
    margin: 0 0px;
    padding: 0px 0 0 0px;
    flex-basis: 214px;
@@ -94,15 +94,17 @@
          padding: 0px;
          overflow: visible;
        }
- }
+ }*/
 }
 
 @media screen and (max-width: 520px) {
  /* Smapthone (мобильный телефон) */
  .about_photo{
 
-     padding: 12px 0 0 0px;
-     flex-basis: 150px;
+    margin: 2px 0 3px 0;
+     padding: 0 !important;
+     height: 150px;
+    flex-basis: 150px;
    //  background-color: #ccf;
 
      &__img{
@@ -110,6 +112,7 @@
        height: 140px;
        border: 5px solid #fff;
        border-radius: 50%;
+       margin: 0 auto;
      }
 
  }
@@ -117,7 +120,8 @@
 
  .career_photo{
        padding: 0px 0 0 0px;
-       //background-color: #cfc;
+       margin: -4px 0 0px 1px;
+
        flex-basis: 237px;
        overflow: visible;
        width: 100%;
@@ -128,7 +132,7 @@
          border: 1px solid transparent;
          border-radius: 9px;
          overflow: hidden;
-         margin: 0 0 0 22px;
+         margin: -2px 0 0 21px;
        }
 
        &__img{
